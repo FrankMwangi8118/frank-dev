@@ -8,6 +8,8 @@
     top: 0;
     z-index: 100;
     border-radius: 12px;
+    height: 60px;
+
 
 }
 
@@ -17,7 +19,6 @@
     align-items: center;
     width: 100%;
     max-width: 1090px;
-    height: 40px;
 }
 
 .logo-container p {
@@ -46,9 +47,10 @@
 }
 
 .link-container ul li {
+    font-family: 'Courier New', monospace;
     font-size: 14px;
-    font-weight: 500;
-    color: #444;
+    font-weight: 600;
+    color: black;
     cursor: pointer;
     transition: color 0.3s ease;
 }
