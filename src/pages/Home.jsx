@@ -1,8 +1,9 @@
 import "./Home.css";
+import Nav from "../components/Nav/Nav.jsx";
 const Home = () => {
     return (
         <>
-        <P>mwas</P>
+        <Nav/>
         </>
     );
 
