@@ -1,41 +1,40 @@
-.cont2{
+.cont2 {
     /*background-color: red;*/
 
-}.scroll-box {
-     height: 150px;
-     overflow: hidden;
-     position: relative;
-    margin-top: -8px;
-    border-radius: 16px;
- }
-.exp-header{
-    display: flex;
-    gap: 140px;
 }
 
- .wrap p{
-     align-self: center;
-     margin-top: -1px;
-     font-family: 'Segoe UI', sans-serif;
-     font-weight: bolder;
-     font-size: 10px;
- }
- .exp-header p{
-     margin-left: 20px;
- }
+.scroll-box {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin-top: -8px;
+    border-radius: 12px;
+}
+
+
+.wrap p {
+    align-self: center;
+    margin-top: -1px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.exp-header p {
+    margin-left: 26px;
+}
 
 .experience-wrapper {
     background: #fff;
     display: flex;
     flex-direction: column;
-    width: 260px;
-    align-items:  center;
+    width: 270px;
+    align-items: center;
     gap: 8px;
-    border-radius:  16px;
-    animation: scrollUp 10s linear infinite;
+    border-radius: 16px;
+    animation: scrollUp 9s linear infinite;
 }
 
-/* Dynamically calculate scroll height */
 @keyframes scrollUp {
     0% {
         transform: translateY(0);

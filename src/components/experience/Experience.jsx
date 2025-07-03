@@ -4,12 +4,10 @@ import teke from '../../assets/teke.png'
 import kendrick from "../../assets/kendrick.png"
 import freematricks from "../../assets/freematric.png"
 import ExperienceCard from "./ExperienceCard/ExperienceCard.jsx";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 const Experience = () => {
     const data = [
         {   index: 1,
-            company: "neoro-ryhm solutions",
+            company: "neoro-ryhm ",
             logo: neuro,
             role: "Backend Engineer",
             from: "Jan 2023",

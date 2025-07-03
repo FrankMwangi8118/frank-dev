@@ -7,6 +7,11 @@
     padding: 0 20px;
     flex-wrap: wrap; /* for responsive stacking on smaller screens */
 }
+.column1-content{
+    display:  flex;
+    flex-direction:  column;
+    gap: 10px;
+}
 
 .column {
     flex: 1;
