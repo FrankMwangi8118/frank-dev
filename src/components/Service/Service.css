@@ -1,0 +1,57 @@
+.service-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 330px;
+    margin-left: 67px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.service-containers {
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.service-header {
+    display: flex;
+    gap: 155px;
+    margin-top: 7px;
+    /*margin-left: 14px;*/
+    /*background-color: yellow;*/
+    height: 10px;
+    width: max-content;
+    align-content: center;
+    text-align: center;
+}
+
+.service-header .__header {
+    align-self: center;
+    margin-top: -1px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+
+    font-size: 10px;
+}
+
+.service-header .__action {
+    align-self: center;
+    margin-top: -1px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #4285f4;
+    font-size: 10px;
+    transition: ease-in-out  0.5s;
+
+}
+.service-header .__action:hover{
+    transform: translateY(-2px);
+cursor: pointer;
+}

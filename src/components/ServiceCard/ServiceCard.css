@@ -1,0 +1,31 @@
+.card-cont{
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    gap: -2px;
+    transition: ease-in-out 0.2s;
+}
+.card-cont:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.card-cont img{
+    height: 33px;
+}
+.card-cont p{
+    align-items: center;
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 9px;
+    color: #2d2d2d;
+
+}

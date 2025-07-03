@@ -1,3 +1,30 @@
 .main-container {
-    margin-top: 15px;
+    max-width: 1150px;
+    margin: 20px auto;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap; /* for responsive stacking on smaller screens */
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.column1 {
+
+    /*background-color: #357ae8;*/
+    flex: 1;
+    min-width: 300px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
