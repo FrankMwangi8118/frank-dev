@@ -33,3 +33,21 @@
     gap: 20px;
     align-items: center;
 }
+.page-footer{
+    /*background-color: red;*/
+    width: max-content;
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

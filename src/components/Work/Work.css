@@ -1,0 +1,40 @@
+.work-card {
+    width: 275px;
+    height: 102px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    font-family: "Inter", sans-serif;
+}
+
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 1rem;
+}
+
+
+
+.headline {
+    margin-left: 12px;
+    margin-top: -1px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a202c;
+}
+
+.cta-link {
+    margin-top: -40px;
+    margin-left: 190px;
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: 500;
+    transition: 0.3s ease;
+
+}
+
+.cta-link:hover {
+    transform:  scale(0.95);
+}

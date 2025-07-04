@@ -5,7 +5,7 @@ import cloud from "../../assets/cloud.png"
 import database from "../../assets/database.png"
 import ServiceCard from "../ServiceCard/ServiceCard.jsx";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faArrowRight, faArrows} from "@fortawesome/free-solid-svg-icons";
+import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 
 const Service = () => {
     const data = [
