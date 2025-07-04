@@ -1,4 +1,6 @@
 .work-card {
+    display: flex;
+    flex-direction: column;
     width: 275px;
     height: 102px;
     background-color: white;
@@ -26,12 +28,11 @@
 }
 
 .cta-link {
-    margin-top: -40px;
+    margin-top: -10px;
     margin-left: 190px;
     text-decoration: none;
     color: #0077ff;
     font-weight: 500;
-    transition: 0.3s ease;
     font-size: 10px;
 
 }
