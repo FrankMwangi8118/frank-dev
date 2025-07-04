@@ -38,8 +38,7 @@
     margin-top: -1px;
     font-family: 'Segoe UI', sans-serif;
     font-weight: bolder;
-
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .service-header .__action {
@@ -47,7 +46,7 @@
     margin-top: -1px;
     font-family: 'Segoe UI', sans-serif;
     color: #4285f4;
-    font-size: 10px;
+    font-size: 12px;
     transition: ease-in-out  0.5s;
 
 }

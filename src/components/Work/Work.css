@@ -32,9 +32,8 @@
     color: #0077ff;
     font-weight: 500;
     transition: 0.3s ease;
+    font-size: 10px;
 
 }
 
-.cta-link:hover {
-    transform:  scale(0.95);
-}
+
